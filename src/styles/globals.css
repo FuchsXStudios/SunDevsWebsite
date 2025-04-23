@@ -1,0 +1,34 @@
+.stats-section {
+  padding: 60px 0;
+  margin: 40px 0;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--secondary);
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 18px;
+  color: var(--text);
+}
+
+.price-count {
+  display: inline;
+}
